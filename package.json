@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "createtablewithmockdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahlaMva9/Create-Post-table-with-Mock-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahlaMva9/Create-Post-table-with-Mock-data/issues"
+  },
+  "homepage": "https://github.com/ShahlaMva9/Create-Post-table-with-Mock-data#readme"
+}

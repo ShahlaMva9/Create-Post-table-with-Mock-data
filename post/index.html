@@ -14,26 +14,39 @@
   </head>
   <style></style>
   <body>
-    <div>
-      <table class="table table-bordered table-sm w-50">
+    <div class="container">
+      <div class="my-2">
+        <button type="button" class="btn btn-warning">
+          <!-- <a href="/post/edit/?id=1">Edit</a> -->
+          <a id="edit-link">Edit</a>
+        </button>
+        <button type="button" class="btn btn-danger">
+          <a href="new.html">Delete</a>
+        </button>
+      </div>
+      <div class="my-3">User information:</div>
+
+      <table class="table table-bordered table-hover">
         <thead>
           <tr>
-            <th scope="col">Id</th>
-            <th scope="col">UserId</th>
-            <th scope="col">Title</th>
-            <th scope="col">Body</th>
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col" class="text-center col-1">User id</th>
+            <th scope="col" class="text-center">Title</th>
+            <th scope="col" class="text-center">Body</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
-      <table class="table table-bordered table-sm w-50 comment-table">
+      <div class="my-3">User comments:</div>
+
+      <table class="table table-bordered comment-table table-hover">
         <thead>
           <tr>
-            <th scope="col">Post id</th>
-            <th scope="col">Id</th>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Body</th>
+            <th scope="col" class="text-center col-1">Post id</th>
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col" class="text-center">Name</th>
+            <th scope="col" class="text-center">Email</th>
+            <th scope="col" class="text-center">Body</th>
           </tr>
         </thead>
         <tbody></tbody>
