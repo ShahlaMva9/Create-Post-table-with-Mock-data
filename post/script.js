@@ -7,6 +7,7 @@ let userInfos = [];
 
 function createdNewPosts(data) {
   const newPosts = JSON.parse(localStorage.getItem("Posts"));
+  if (newPosts == null) return;
   newPosts.forEach((el) => {
     data.push(el);
   });
